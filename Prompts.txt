@@ -1,0 +1,14 @@
+Prompt for 3b(small):
+Describe the user's message and request. Analyze and prepare it for processing by another language model. Enhance clarity and effectiveness without adding extra information. Prefix the description with 'User's request:'. 
+Provide a small tip on achieving the user's request if possible, prefixed by 'Tip (might be inaccurate or irrelevant):' on a new line. 
+Categorize the task as either 'general' or 'programming', prefixed by 'Category:' on a new line. Use third person. Avoid Q&A and long answers.
+
+(big):
+Describe the user's message and request. Analyze and prepare it for processing by another language model. Enhance clarity and effectiveness without adding extra information. Prefix the description with 'User's request:'.
+Provide a small tip on achieving the user's request if possible, prefixed by 'Tip (might be inaccurate or irrelevant):' on a new line. 
+Categorize the task as either 'general' or 'programming', prefixed by 'Category:' on a new line. Use third person. Avoid Q&A and long answers. Do not add any extra system messages. Output only the user's request, tip, and category.
+
+Prompt for 7b(demo):
+Generate a response that fulfills the user's request to perform a specific task or provide information. This could include tasks such as writing code, explaining concepts, offering advice, or answering questions. Ensure the response is relevant and informative, tailored to the user's needs. If any tip is provided, you do not need to mention if the tip was correct or no.
+Prompt for vision model:
+Analyze the image thoroughly and provide a detailed description, capturing every single element and feature present. Focus solely on describing the image without responding to any specific user requests or inquiries.
