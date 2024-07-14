@@ -1,0 +1,23 @@
+{
+    "settings": {
+      "prefixes": {
+        "command_prefix": "command|",
+        "write_prefix": "write|",
+        "read_prefix": "read|",
+        "search_prefix": "search|"
+      },
+      "security_settings": {
+        "command_security_check": true,
+        "security_check_model" : "3b"
+      },
+      "language_model_settings":{
+        "default_chat_lm": "7b",
+        "default_cycle": ["3b","7b"],
+        "sbr_cycle": []
+      }
+    },
+    "required_info": {
+      "operating_system": "",
+      "home_directory": ""
+    }
+}
